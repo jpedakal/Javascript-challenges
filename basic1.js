@@ -17,5 +17,5 @@ tripleAdd(10)(20)(30);
 for(var i=0;i<4;i++){
    setTimeout(() => {
        console.log('i value '+i);
-   }, 3000);
+   }, 1000);
 }
