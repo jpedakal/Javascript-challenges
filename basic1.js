@@ -29,10 +29,14 @@ function addNum(a,b,c){
 
 console.log(addNum.length)
 
-*/
+
 
 // IIFE --> Immediate invoking function expression
 
 (function addNum(num1){
     console.log(num1+5);
 })(5);
+
+*/
+
+//
