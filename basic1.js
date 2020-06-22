@@ -37,7 +37,7 @@ console.log(addNum.length)
     console.log(num1+5);
 })(5);
 
-*/
+
 
 // Write a function for closures concept. Access variables from outer function variable and global variable.
 
@@ -60,3 +60,13 @@ function outerFunc(param1){
 }
 
 outerFunc('param two');
+
+*/
+// Write the output of below code
+
+(function(){
+    var a = b = 3;
+  })();
+  
+  console.log("a defined? " + (typeof a !== 'undefined'));
+  console.log("b defined? " + (typeof b !== 'undefined'));
