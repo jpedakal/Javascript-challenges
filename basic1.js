@@ -71,7 +71,7 @@ outerFunc('param two');
   console.log("a defined? " + (typeof a !== 'undefined'));
   console.log("b defined? " + (typeof b !== 'undefined'));
 
-  */
+  
 
   // Write the output of below code
   function foo1()
@@ -91,3 +91,9 @@ function foo2()
 
 console.log('function 1', foo1());
 console.log('function 2', foo2());
+
+*/
+
+// Write the output of below code
+console.log(0.1 + 0.2);
+console.log(0.1 + 0.2 == 0.3);
