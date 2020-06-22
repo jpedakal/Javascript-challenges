@@ -1,3 +1,4 @@
+/*
 // Triple add function
 function tripleAdd(num1) {
     console.log(num1)
@@ -11,7 +12,6 @@ function tripleAdd(num1) {
 tripleAdd(10)(20)(30);
 
 
-/***********************************************************************************************/
 // Output of below code
 
 for(var i=0;i<4;i++){
@@ -20,7 +20,7 @@ for(var i=0;i<4;i++){
    }, 1000);
 }
 
-/************************************************************************************************/
+
 // Find the length of the function
 function addNum(a,b,c){
     var sum= a+b;
@@ -29,5 +29,10 @@ function addNum(a,b,c){
 
 console.log(addNum.length)
 
-/*********************************************************************************************/
+*/
 
+// IIFE --> Immediate invoking function expression
+
+(function addNum(num1){
+    console.log(num1+5);
+})(5);
