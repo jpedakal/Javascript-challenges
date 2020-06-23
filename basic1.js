@@ -121,7 +121,7 @@ var addNum= function(num1){
     return num1+5;
 }
 
-*/
+// Write the output of below code
 
 var myCar = {
     color: "blue",
@@ -137,3 +137,5 @@ var myCar = {
 }
 
 myCar.logColor();
+
+*/
