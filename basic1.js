@@ -226,9 +226,20 @@ var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
 console.log(1 < 2 < 3);
 console.log(3 > 2 > 1);
 
- */
-
+// Write the output of below code
 console.log("0 || 1 = "+(0 || 1));
 console.log("1 || 2 = "+(1 || 2));
 console.log("0 && 1 = "+(0 && 1));
 console.log("1 && 2 = "+(1 && 2));
+
+*/
+
+// Write the output of below code
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b]);
