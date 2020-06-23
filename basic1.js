@@ -113,8 +113,6 @@ var person= {
 console.log(person.name);
 console.log(person.getData());
 
-*/
-
 // Hoisting for functions
 
 console.log(addNum(5));   //---->   Will get output as "addNum is not a function"
@@ -123,3 +121,19 @@ var addNum= function(num1){
     return num1+5;
 }
 
+*/
+
+var myCar = {
+    color: "blue",
+    logColor: function(){
+        var self= this;
+        console.log("In logColor- this.color "+this.color);
+        console.log("In logColor- self.color "+self.color);
+     (function(){
+         console.log("In IIFE - this.color "+ this.color);
+         console.log("In IIFE -self.color "+ self.color);
+     })()
+    }
+}
+
+myCar.logColor();
