@@ -147,7 +147,7 @@ arr2.push(arr3);
 console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
 console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
 
-*/
+
 
 console.log(1 +  "2" + "2");
 console.log(1 +  +"2" + "2");
@@ -186,7 +186,7 @@ Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can
 
 Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN. 
 But any operator applied to NaN with any other numeric operand will still yield NaN.
-*/
+
 
 // Write the output of below code
 
@@ -195,3 +195,19 @@ But any operator applied to NaN with any other numeric operand will still yield 
         console.log(x);
     })(2)
 })(1);
+
+*/
+
+// Write the output of below code
+
+var hero = {
+    _name: 'John Doe',
+    getSecretIdentity: function (){
+        return this._name;
+    }
+};
+
+var stoleSecretIdentity = hero.getSecretIdentity;
+
+console.log(stoleSecretIdentity());
+console.log(hero.getSecretIdentity());
