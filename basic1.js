@@ -188,4 +188,10 @@ Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous e
 But any operator applied to NaN with any other numeric operand will still yield NaN.
 */
 
-// 
+// Write the output of below code
+
+(function(x) {
+    return (function(y) {
+        console.log(x);
+    })(2)
+})(1);
