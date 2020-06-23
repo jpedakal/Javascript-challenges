@@ -196,7 +196,7 @@ But any operator applied to NaN with any other numeric operand will still yield 
     })(2)
 })(1);
 
-*/
+
 
 // Write the output of below code
 
@@ -215,9 +215,12 @@ console.log(hero.getSecretIdentity());
 /**
  Explanation
  --------------------------------------------
- The first console.log prints undefined because we are extracting the method from the hero object, so stoleSecretIdentity() is being invoked in the global context (i.e., the window object) where the _name property does not exist.
-
-One way to fix the stoleSecretIdentity() function is as follows:
-
+The first console.log prints undefined because we are extracting the method from the hero object,
+so stoleSecretIdentity() is being invoked in the global context (i.e., the window object) where 
+the _name property does not exist.One way to fix the stoleSecretIdentity() 
+function is as follows:
 var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
  */
+
+ var length= 10;
+ console.log(this.length);
