@@ -92,8 +92,23 @@ function foo2()
 console.log('function 1', foo1());
 console.log('function 2', foo2());
 
-*/
 
 // Write the output of below code
 console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 == 0.3);
+
+*/
+
+// "this" keyword sample example
+
+var person= {
+    name: "Surya",
+    age: "20",
+    company: "IBM",
+    getData: function(){
+        return this.name+' age is '+this.age
+    }
+}
+
+console.log(person.name);
+console.log(person.getData());
