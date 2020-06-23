@@ -220,7 +220,10 @@ so stoleSecretIdentity() is being invoked in the global context (i.e., the windo
 the _name property does not exist.One way to fix the stoleSecretIdentity() 
 function is as follows:
 var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
- */
 
- var length= 10;
- console.log(this.length);
+
+ // Write the output of below code
+console.log(1 < 2 < 3);
+console.log(3 > 2 > 1);
+
+ */
