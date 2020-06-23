@@ -97,7 +97,7 @@ console.log('function 2', foo2());
 console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 == 0.3);
 
-*/
+
 
 // "this" keyword sample example
 
@@ -112,3 +112,14 @@ var person= {
 
 console.log(person.name);
 console.log(person.getData());
+
+*/
+
+// Hoisting for functions
+
+console.log(addNum(5));   //---->   Will get output as "addNum is not a function"
+
+var addNum= function(num1){
+    return num1+5;
+}
+
