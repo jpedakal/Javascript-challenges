@@ -284,11 +284,20 @@ function outer(){
     inner();
 }
 outer();
-*/
+
 
 // usage of 'undefined' data type
 function foo(){
     undefined= "john";          // bad idea
+    console.log(undefined);
+}
+
+foo();
+
+*/
+'use strict';
+function foo(){
+    undefined= "john";         // Type error will come
     console.log(undefined);
 }
 
