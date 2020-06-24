@@ -335,4 +335,9 @@ console.log(arr.length);   // length is 1
 they also are objects that can have string keys/propertiesadded to them 
 (but which don’t count toward the length of the array):
 
-*/
+// Find the length of below code
+var arr= [];
+arr["3"]= "three";
+console.log(arr.length);
+
+/* if string is base10 number , then it will consider key as numeric */
