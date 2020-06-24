@@ -294,7 +294,7 @@ function foo(){
 
 foo();
 
-*/
+
 'use strict';
 function foo(){
     undefined= "john";         // Type error will come
@@ -302,3 +302,4 @@ function foo(){
 }
 
 foo();
+*/
