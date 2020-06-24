@@ -323,4 +323,16 @@ var a= 2/ 'num';
 console.log(a == NaN);
 console.log(a === NaN);
 
+
+// Find the length of below code
+var arr= [];
+arr[0]= "car";
+console.log(arr.length);   // length is 1
+arr["two"]= "bus";
+console.log(arr.length);   // length is 1
+
+/*arrays are numerically indexed (as you’d expect), but the tricky thingis that 
+they also are objects that can have string keys/propertiesadded to them 
+(but which don’t count toward the length of the array):
+
 */
