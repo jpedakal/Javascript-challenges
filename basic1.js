@@ -285,3 +285,11 @@ function outer(){
 }
 outer();
 */
+
+// usage of 'undefined' data type
+function foo(){
+    undefined= "john";          // bad idea
+    console.log(undefined);
+}
+
+foo();
