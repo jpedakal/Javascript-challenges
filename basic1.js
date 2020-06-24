@@ -252,3 +252,10 @@ converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to
 can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or 
 referencing a[b]. */
 
+
+// How do you clone an object
+var obj= {a: 12, b: 20,c: {d:20, e:40}};
+var objClone= Object.assign({},obj);
+console.log(objClone);
+obj.c.d= 45;
+console.log(objClone);
