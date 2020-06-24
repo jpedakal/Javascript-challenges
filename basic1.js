@@ -316,9 +316,11 @@ foo();
 // Write the output of below code
 var a = 2 / 'num';   // will get 'NaN'
 console.log(typeof a === "number");
-*/
+
 
 // Write the output of below code
 var a= 2/ 'num';
 console.log(a == NaN);
 console.log(a === NaN);
+
+*/
