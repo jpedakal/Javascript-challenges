@@ -232,7 +232,6 @@ console.log("1 || 2 = "+(1 || 2));
 console.log("0 && 1 = "+(0 && 1));
 console.log("1 && 2 = "+(1 && 2));
 
-*/
 
 // Write the output of below code
 var a={},
@@ -252,3 +251,4 @@ stringify the parameter value. In this case, since b and c are both objects, the
 converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to a["[object Object]"] and 
 can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or 
 referencing a[b]. */
+
