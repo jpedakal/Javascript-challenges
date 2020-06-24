@@ -342,6 +342,6 @@ console.log(arr.length);
 
 /* if string is base10 number , then it will consider key as numeric */
 
-var a= 3/ "one";
-console.log(isNaN(a));
+var a= 2/ "one";
+console.log(window.isNaN(a));  // true
 
