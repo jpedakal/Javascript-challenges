@@ -302,7 +302,7 @@ function foo(){
 }
 
 foo();
-*/
+
 
 // But if you declare like "var undefined" in strict or non-strict mode, you will get out put as "john"
 'use strict';
@@ -312,3 +312,4 @@ function foo(){
 }
 
 foo();
+*/
