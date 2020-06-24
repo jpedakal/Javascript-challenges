@@ -250,8 +250,7 @@ The reason for this is as follows: When setting an object property, JavaScript w
 stringify the parameter value. In this case, since b and c are both objects, they will both be 
 converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to a["[object Object]"] and 
 can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or 
-referencing a[b]. */
-
+referencing a[b]. 
 
 // How do you clone an object
 var obj= {a: 12, b: 20,c: {d:20, e:40}};
@@ -259,3 +258,10 @@ var objClone= Object.assign({},obj);
 console.log(objClone);
 obj.c.d= 45;
 console.log(objClone);
+
+*/
+// How do you add an element in the bigining of an array and end of the arry
+const arr= [1,2,4,5];
+arr.push('end');
+arr.unshift('strt');
+console.log(arr);
