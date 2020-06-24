@@ -297,9 +297,18 @@ foo();
 
 'use strict';
 function foo(){
-    undefined= "john";         // Type error will come
+   var undefined= "john";         // Type error will come
     console.log(undefined);
 }
 
 foo();
 */
+
+// But if you declare like "var undefined" in strict or non-strict mode, you will get out put as "john"
+'use strict';
+function foo(){
+   var undefined= "john";         // Type error will come
+    console.log(undefined);
+}
+
+foo();
