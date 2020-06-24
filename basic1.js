@@ -259,9 +259,11 @@ console.log(objClone);
 obj.c.d= 45;
 console.log(objClone);
 
-*/
+
 // How do you add an element in the bigining of an array and end of the arry
 const arr= [1,2,4,5];
 arr.push('end');
 arr.unshift('strt');
 console.log(arr);
+
+*/
