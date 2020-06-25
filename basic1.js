@@ -340,8 +340,9 @@ var arr= [];
 arr["3"]= "three";
 console.log(arr.length);
 
-/* if string is base10 number , then it will consider key as numeric */
+/* if string is base10 number , then it will consider key as numeric 
 
 var a= 2/ "one";
 console.log(window.isNaN(a));  // true
 
+*/
