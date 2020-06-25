@@ -370,4 +370,13 @@ console.log(b);
 */
 // Max numbers
 var a= Number.MAX_VALUE;
-console.log(a);
+console.log(a);            // 1.7976931348623157e+308
+
+console.log(a+a);   // Infinity
+
+var maxnum= a+ Math.pow(2, 970);
+console.log(maxnum);               // Infinity
+
+var maxnum2=  Math.pow(2, 969);
+console.log(maxnum2);            // 1.7976931348623157e+308
+
