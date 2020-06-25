@@ -342,7 +342,15 @@ console.log(arr.length);
 
 /* if string is base10 number , then it will consider key as numeric 
 
+// Find the output of below code
 var a= 2/ "one";
 console.log(window.isNaN(a));  // true
 
+
+// Find the output of below code
+var a= "foo";
+console.log(window.isNaN(a));  // true
+
+/* Clearly, "foo" is literally not a number, but it’s definitely not the NaN value either! 
+This bug has been in JS since the very beginning (over 19 years of ouch).
 */
