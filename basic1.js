@@ -389,3 +389,5 @@ console.log(Infinity/100);  // Infinity
 console.log(10000/ -Infinity); // -0
 
 */
+console.log(0/ -3);  // -0
+console.log(0 * -3); // -0
