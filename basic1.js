@@ -354,3 +354,9 @@ console.log(window.isNaN(a));  // true
 /* Clearly, "foo" is literally not a number, but it’s definitely not the NaN value either! 
 This bug has been in JS since the very beginning (over 19 years of ouch).
 */
+
+// Are two NaN's are equal ? 
+var a= 5 / "foo";   // NaN
+var b= 5 / "foo";   // NaN
+
+console.log(a == b);
