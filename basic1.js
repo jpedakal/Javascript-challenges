@@ -362,4 +362,8 @@ var b= 5 / "foo";   // NaN
 console.log(a == b);
 */
 
-// 
+//  About positive infinity and negative infinity
+var a = 1 / 0;
+var b = -1 / 0;
+console.log(a);
+console.log(b);
