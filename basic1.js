@@ -408,7 +408,6 @@ var str= "jaya";
 var strconcat= str.concat("krishna");
 console.log(strconcat);
 
-*/
 // Array concat
 var arr= ["j","a","y","a"];
 var arr1= arr.concat(["k","r","i","s","h","n","a"]);
