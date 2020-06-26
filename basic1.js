@@ -402,4 +402,8 @@ var a = [ 1, "2", [3] ];
 console.log(a[2][0]);
 
 */
+// String concat
 
+var str= "jaya";
+var strconcat= str.concat("krishna");
+console.log(strconcat);
