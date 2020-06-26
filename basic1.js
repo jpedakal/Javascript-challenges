@@ -387,11 +387,9 @@ console.log(10000/ Infinity); // 0
 console.log(-100000/ Infinity); // -0
 console.log(Infinity/100);  // Infinity
 console.log(10000/ -Infinity); // -0
-
-
 console.log(0/ -3);  // -0
 console.log(0 * -3); // -0
 
+
 var a= 0/-3;
 console.log(JSON.stringify(a));
-*/
