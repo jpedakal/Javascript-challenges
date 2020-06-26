@@ -394,10 +394,12 @@ console.log(0 * -3); // -0
 var a= 0/-3;
 console.log(JSON.stringify(a));
 
-*/
 
 // Find the output of below code
 
 var a = [ 1, "2", [3] ];
 
 console.log(a[2][0]);
+
+*/
+
