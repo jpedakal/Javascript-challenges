@@ -135,8 +135,8 @@ var myCar = {
 
 myCar.logColor();
 
-// Write the output of code
 
+// Write the output of code
 var arr1 = "john".split('');
 var arr2 = arr1.reverse();
 var arr3 = "jones".split('');
