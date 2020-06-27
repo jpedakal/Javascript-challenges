@@ -110,16 +110,16 @@ var person = {
 console.log(person.name);
 console.log(person.getData());
 
-// Hoisting for functions
 
+// Hoisting for functions
 console.log(addNum(5));   //---->   Will get output as "addNum is not a function"
 
 var addNum = function (num1) {
     return num1 + 5;
 }
 
-// Write the output of below code
 
+// Write the output of below code
 var myCar = {
     color: "blue",
     logColor: function () {
