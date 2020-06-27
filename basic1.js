@@ -187,7 +187,6 @@ But any operator applied to NaN with any other numeric operand will still yield 
 
 
 // Write the output of below code
-
 (function(x) {
     return (function(y) {
         console.log(x);
@@ -197,7 +196,6 @@ But any operator applied to NaN with any other numeric operand will still yield 
 
 
 // Write the output of below code
-
 var hero = {
     _name: 'John Doe',
     getSecretIdentity: function (){
