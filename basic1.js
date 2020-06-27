@@ -1,4 +1,4 @@
-/*
+
 // Triple add function
 function tripleAdd(num1) {
     console.log(num1)
