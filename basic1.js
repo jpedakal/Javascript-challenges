@@ -62,6 +62,7 @@ function outerFunc(param1){
 outerFunc('param two');
 
 
+
 // Write the output of below code
 
 (function(){
