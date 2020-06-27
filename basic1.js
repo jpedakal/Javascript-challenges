@@ -183,6 +183,7 @@ Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can
 
 Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN.
 But any operator applied to NaN with any other numeric operand will still yield NaN.
+*/
 
 
 // Write the output of below code
