@@ -216,11 +216,13 @@ so stoleSecretIdentity() is being invoked in the global context (i.e., the windo
 the _name property does not exist.One way to fix the stoleSecretIdentity()
 function is as follows:
 var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
+*/
 
 
  // Write the output of below code
 console.log(1 < 2 < 3);
 console.log(3 > 2 > 1);
+
 
 // Write the output of below code
 console.log("0 || 1 = "+(0 || 1));
@@ -247,6 +249,7 @@ stringify the parameter value. In this case, since b and c are both objects, the
 converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to a["[object Object]"] and
 can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or
 referencing a[b].
+*/
 
 // How do you clone an object
 var obj= {a: 12, b: 20,c: {d:20, e:40}};
