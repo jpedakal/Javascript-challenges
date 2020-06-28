@@ -8,12 +8,10 @@ function tripleAdd(num1) {
         }
     }
 }
-
 tripleAdd(10)(20)(30);
 
 
 // Output of below code
-
 for (var i = 0; i < 4; i++) {
     setTimeout(() => {
         console.log('i value ' + i);
@@ -26,21 +24,18 @@ function addNum(a, b, c) {
     var sum = a + b;
     return sum;
 }
-
 console.log(addNum.length)
 
 
 
-    // IIFE --> Immediate invoking function expression
-
-    (function addNum(num1) {
-        console.log(num1 + 5);
-    })(5);
+// IIFE --> Immediate invoking function expression
+(function addNum(num1) {
+    console.log(num1 + 5);
+})(5);
 
 
 
 // Write a function for closures concept. Access variables from outer function variable and global variable.
-
 const globalVariable = 'global var';
 
 function outerFunc(param1) {
@@ -58,13 +53,11 @@ function outerFunc(param1) {
 
     innerFunc('param one');
 }
-
 outerFunc('param two');
 
 
 
 // Write the output of below code
-
 (function () {
     var a = b = 3;
 })();
@@ -87,7 +80,6 @@ function foo2() {
         bar: "hello"
     };
 }
-
 console.log('function 1', foo1());
 console.log('function 2', foo2());
 
@@ -106,7 +98,6 @@ var person = {
         return this.name + ' age is ' + this.age
     }
 }
-
 console.log(person.name);
 console.log(person.getData());
 
@@ -132,7 +123,6 @@ var myCar = {
         })()
     }
 }
-
 myCar.logColor();
 
 
@@ -154,7 +144,7 @@ console.log("A" - "B" + "2");
 console.log("A" - "B" + 2);
 
 /* Explanation:
-
+------------------------------------------------------------------------------------------------------
 Example 1: 1 + "2" + "2" Outputs: "122" Explanation: The first operation to be performed in 1 + "2".
 Since one of the operands ("2") is a string, JavaScript assumes it needs to perform string concatenation and
 therefore converts the type of 1 to "1", 1 + "2" yields "12". Then, "12" + "2" yields "122".
@@ -183,6 +173,7 @@ Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can
 
 Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN.
 But any operator applied to NaN with any other numeric operand will still yield NaN.
+------------------------------------------------------------------------------------------------------
 */
 
 
@@ -210,12 +201,13 @@ console.log(hero.getSecretIdentity());
 
 /**
  Explanation
- --------------------------------------------
+ -------------------------------------------------------------------------------------------------------
 The first console.log prints undefined because we are extracting the method from the hero object,
 so stoleSecretIdentity() is being invoked in the global context (i.e., the window object) where
 the _name property does not exist.One way to fix the stoleSecretIdentity()
 function is as follows:
 var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
+-------------------------------------------------------------------------------------------------------
 */
 
 
@@ -242,13 +234,14 @@ a[c]=456;
 console.log(a[b]);
 
 /* Explanation
---------------------------------------------------
+------------------------------------------------------------------------------------------------------
 The output of this code will be 456 (not 123).
 The reason for this is as follows: When setting an object property, JavaScript will implicitly
 stringify the parameter value. In this case, since b and c are both objects, they will both be
 converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to a["[object Object]"] and
 can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or
 referencing a[b].
+--------------------------------------------------------------------------------------------------------
 */
 
 // How do you clone an object
@@ -268,8 +261,11 @@ console.log(arr);
 // Write the output of below code
 console.log(typeof undefined == typeof NULL);
 
-/*  The expression will be evaluated to true, since NULL will be treated as any other undefined variable.
+/* Explanation
+-----------------------------------------------------------------------------------------------------
+ The expression will be evaluated to true, since NULL will be treated as any other undefined variable.
   Note: JavaScript is case-sensitive and here we are using NULL instead of null.
+----------------------------------------------------------------------------------------------------
 */
 
 // Write the output of below code
@@ -331,9 +327,13 @@ console.log(arr.length);   // length is 1
 arr["two"]= "bus";
 console.log(arr.length);   // length is 1
 
-/*arrays are numerically indexed (as you’d expect), but the tricky thingis that
+/* Explanation
+-------------------------------------------------------------------------------------------------------
+arrays are numerically indexed (as you’d expect), but the tricky thingis that
 they also are objects that can have string keys/propertiesadded to them
 (but which don’t count toward the length of the array):
+----------------------------------------------------------------------------------------------------------
+*/
 
 // Find the length of below code
 var arr= [];
