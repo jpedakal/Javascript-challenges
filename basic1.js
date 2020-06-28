@@ -425,7 +425,7 @@ var a= new String("welcome");
 console.log(a);
 console.log(typeof a);    //object
 console.log(a instanceof String);
-*/
+
 
 // Find the output of below code
 var a= Object.prototype.toString.call([1,2,3]);
@@ -433,3 +433,10 @@ console.log(a);
 
 var b= Object.prototype.toString.call("welcome");
 console.log(b);
+*/
+
+var obj= {
+    a: "b"
+}
+obj.c= "jh";
+console.log(obj);
