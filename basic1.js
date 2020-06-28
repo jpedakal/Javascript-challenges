@@ -419,6 +419,3 @@ var arr1= arr.concat(["k","r","i","s","h","n","a"]);
 console.log(arr1);
 
 // Find the output of below code
-
-
-
