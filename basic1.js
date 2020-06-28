@@ -419,9 +419,10 @@ console.log(arr1);
 
 // Find the output of below code
 console.log(0.3 === (0.4-0.1));
-*/
+
 
 var a= new String("welcome");
 console.log(a);
 console.log(typeof a);    //object
 console.log(a instanceof String);
+*/
