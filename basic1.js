@@ -340,7 +340,11 @@ var arr= [];
 arr["3"]= "three";
 console.log(arr.length);
 
-/* if string is base10 number , then it will consider key as numeric
+/* 
+------------------------------------------------------------------------------------------------------
+if string is base10 number , then it will consider key as numeric
+------------------------------------------------------------------------------------------------------
+*/
 
 // Find the output of below code
 var a= 2/ "one";
