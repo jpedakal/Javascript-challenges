@@ -417,4 +417,4 @@ var arr1= arr.concat(["k","r","i","s","h","n","a"]);
 console.log(arr1);
 
 // Find the output of below code
-console.log(0.3 == (0.4-0.1));
+console.log(0.3 === (0.4-0.1));
