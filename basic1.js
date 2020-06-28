@@ -389,7 +389,7 @@ var maxnum2=  Math.pow(2, 969);
 console.log(maxnum2);            // 1.7976931348623157e+308
 
 
-//  Samples about infinity
+// Samples about infinity
 console.log(Infinity/Infinity);  // NaN
 console.log(10000/ Infinity); // 0
 console.log(-100000/ Infinity); // -0
