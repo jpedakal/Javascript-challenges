@@ -1,3 +1,4 @@
+/*
 // Triple add function
 function tripleAdd(num1) {
     console.log(num1)
@@ -172,7 +173,7 @@ Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can
 Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN.
 But any operator applied to NaN with any other numeric operand will still yield NaN.
 ------------------------------------------------------------------------------------------------------
-*/
+
 
 
 // Write the output of below code
@@ -206,7 +207,7 @@ the _name property does not exist.One way to fix the stoleSecretIdentity()
 function is as follows:
 var stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
 -------------------------------------------------------------------------------------------------------
-*/
+
 
 
  // Write the output of below code
@@ -240,7 +241,7 @@ converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to
 can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or
 referencing a[b].
 --------------------------------------------------------------------------------------------------------
-*/
+
 
 // How do you clone an object
 var obj= {a: 12, b: 20,c: {d:20, e:40}};
@@ -264,7 +265,7 @@ console.log(typeof undefined == typeof NULL);
  The expression will be evaluated to true, since NULL will be treated as any other undefined variable.
   Note: JavaScript is case-sensitive and here we are using NULL instead of null.
 ----------------------------------------------------------------------------------------------------
-*/
+
 
 // Write the output of below code
 var b = 1;
@@ -331,7 +332,7 @@ arrays are numerically indexed (as you’d expect), but the tricky thingis that
 they also are objects that can have string keys/propertiesadded to them
 (but which don’t count toward the length of the array):
 ----------------------------------------------------------------------------------------------------------
-*/
+
 
 // Find the length of below code
 var arr= [];
@@ -342,7 +343,7 @@ console.log(arr.length);
 ------------------------------------------------------------------------------------------------------
 if string is base10 number , then it will consider key as numeric
 ------------------------------------------------------------------------------------------------------
-*/
+
 
 // Find the output of below code
 var a= 2/ "one";
@@ -358,7 +359,7 @@ console.log(window.isNaN(a));  // true
 Clearly, "foo" is literally not a number, but it’s definitely not the NaN value either!
 This bug has been in JS since the very beginning (over 19 years of ouch).
 ------------------------------------------------------------------------------------------------------
-*/
+
 
 
 // Are two NaN's are equal ?
@@ -418,3 +419,4 @@ console.log(arr1);
 
 // Find the output of below code
 console.log(0.3 === (0.4-0.1));
+*/
