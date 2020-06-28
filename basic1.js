@@ -404,9 +404,7 @@ console.log(JSON.stringify(a));
 
 
 // Find the output of below code
-
 var a = [ 1, "2", [3] ];
-
 console.log(a[2][0]);
 
 
