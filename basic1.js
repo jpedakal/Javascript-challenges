@@ -420,3 +420,6 @@ console.log(arr1);
 // Find the output of below code
 console.log(0.3 === (0.4-0.1));
 */
+
+var a= new String("welcome");
+console.log(typeof a);
