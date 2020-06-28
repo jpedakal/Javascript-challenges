@@ -1,4 +1,3 @@
-
 // Triple add function
 function tripleAdd(num1) {
     console.log(num1)
@@ -64,7 +63,6 @@ outerFunc('param two');
 
 console.log("a defined? " + (typeof a !== 'undefined'));
 console.log("b defined? " + (typeof b !== 'undefined'));
-
 
 
 // Write the output of below code
