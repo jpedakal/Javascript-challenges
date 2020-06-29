@@ -446,3 +446,8 @@ console.log(e.toString()); // [object Undefined]
 var f= Object.prototype.toString.call(true);
 console.log(f); // [object Boolean]
 */
+
+var str= "abc";
+var b= new String(str);
+var c= Object(b);
+console.log(c);
