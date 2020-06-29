@@ -468,7 +468,6 @@ console.log(c.valueOf()); // true
  If you have an object wrapper and you want to get the underlyingprimitive value out, 
  you can use the valueOf() method
  ---------------------------------------------------------------------------------------------------
- */
 
 // Array creation
 var a = new Array(1, 2, 3);
@@ -476,3 +475,16 @@ var a = new Array(1, 2, 3);
 var a = Array(1, 2, 3);  // You can omnit "new" keyword infront of Array
 
 console.log(a);
+*/
+
+var arr = new Array(3);
+var b = [undefined, undefined, undefined];
+var c = [1];
+c.length = 3;
+
+console.log(arr);
+console.log(b);
+console.log(c);
+
+
+
