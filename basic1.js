@@ -486,10 +486,19 @@ c.length = 3;
 console.log(arr);
 console.log(b);
 console.log(c);
+
+// How to create an array with undefined values (not just “empty slots”)
+var a= Array.apply(null, {length: 3});
+console.log(a);   // [undefined, undefined, undefined]
+
+/*
+----------------------------------------------------------------------------------------------------
+The first argument is a this object binding (covered in the this &Object Prototypes title in this 
+series), which we don’t care about here, so we set itto null. The second argument is supposed to 
+be an array (or somethinglike an array—aka an “array-like object”). The contents of this“array” are 
+“spread” out as arguments to the function in question
+----------------------------------------------------------------------------------------------------
 */
-
-console.log(true+ false);
-
 
 
 
