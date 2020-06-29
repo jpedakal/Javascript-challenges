@@ -436,3 +436,9 @@ console.log(b); // [object String]
 
 var c= Object.prototype.toString.call(/regex-literal/i);
 console.log(c); // [object RegExp]
+
+var d= Object.prototype.toString.call(null);
+console.log(d); // [object Null]
+
+var e= Object.prototype.toString.call(undefined);
+console.log(e); // [object Undefined]
