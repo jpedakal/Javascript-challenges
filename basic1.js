@@ -475,8 +475,9 @@ var a = new Array(1, 2, 3);
 var a = Array(1, 2, 3);  // You can omnit "new" keyword infront of Array
 
 console.log(a);
-*/
 
+
+// Find the output of code
 var arr = new Array(1);
 var b = [undefined, undefined, undefined];
 var c = [];
@@ -485,6 +486,7 @@ c.length = 3;
 console.log(arr);
 console.log(b);
 console.log(c);
+*/
 
 
 
