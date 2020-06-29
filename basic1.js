@@ -472,17 +472,3 @@ console.log(c.valueOf()); // true
 var a= new String("welcome");
 var b= a+ "";
 console.log(b);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
