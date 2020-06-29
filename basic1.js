@@ -442,6 +442,7 @@ console.log(d); // [object Null]
 
 var e= Object.prototype.toString.call(undefined);
 console.log(e.toString()); // [object Undefined]
-*/
 
-console.log(typeof new Array() === "object");
+var f= Object.prototype.toString.call(true);
+console.log(f); // [object Boolean]
+*/
