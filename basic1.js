@@ -469,8 +469,9 @@ console.log(c.valueOf()); // true
  you can use the valueOf() method
  ---------------------------------------------------------------------------------------------------
  */
-
-
+var a= new String("welcome");
+var b= a+ "";
+console.log(b);
 
 
 
