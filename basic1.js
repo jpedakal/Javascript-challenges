@@ -469,6 +469,8 @@ console.log(c.valueOf()); // true
  you can use the valueOf() method
  ---------------------------------------------------------------------------------------------------
  */
-var a= new String("welcome");
-var b= a+ "";
-console.log(b);
+var a=new Array(1,2,3);
+  //   OR
+var a= Array(1,2,3);  // You can omnit "new" keyword infront of Array
+
+console.log(a);
