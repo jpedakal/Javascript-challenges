@@ -429,10 +429,10 @@ console.log(a instanceof String);
 */
 // Find the output of below code
 var a= Object.prototype.toString.call([1,2,3]);
-console.log(a);
+console.log(a); // [object Array]
 
 var b= Object.prototype.toString.call("welcome");
-console.log(b);
+console.log(b); // [object String]
 
 var c= Object.prototype.toString.call(/regex-literal/i);
-console.log(c);
+console.log(c); // [object RegExp]
