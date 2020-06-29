@@ -426,7 +426,7 @@ console.log(a);
 console.log(typeof a);    //object
 console.log(a instanceof String);
 
-*/
+
 // Find the output of below code
 var a= Object.prototype.toString.call([1,2,3]);
 console.log(a); // [object Array]
@@ -441,4 +441,5 @@ var d= Object.prototype.toString.call(null);
 console.log(d); // [object Null]
 
 var e= Object.prototype.toString.call(undefined);
-console.log(e); // [object Undefined]
+console.log(e.toString()); // [object Undefined]
+*/
