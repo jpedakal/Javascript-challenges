@@ -445,10 +445,43 @@ console.log(e.toString()); // [object Undefined]
 
 var f= Object.prototype.toString.call(true);
 console.log(f); // [object Boolean]
-*/
+
 
 // Find the output of code
 var str= "abc";
 var b= new String(str);
 var c= Object(b);
 console.log(c);  // [String: 'abc']
+
+
+// Find the output of code
+var a = new String("abc"); 
+var b = new Number(42); 
+var c = new Boolean(true); 
+
+console.log(a.valueOf()); // "abc"
+console.log(b.valueOf()); // 42
+console.log(c.valueOf()); // true
+
+/**
+ ---------------------------------------------------------------------------------------------------
+ If you have an object wrapper and you want to get the underlyingprimitive value out, 
+ you can use the valueOf() method
+ ---------------------------------------------------------------------------------------------------
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
