@@ -477,9 +477,9 @@ var a = Array(1, 2, 3);  // You can omnit "new" keyword infront of Array
 console.log(a);
 */
 
-var arr = new Array(3);
+var arr = new Array(1);
 var b = [undefined, undefined, undefined];
-var c = [1];
+var c = [];
 c.length = 3;
 
 console.log(arr);
