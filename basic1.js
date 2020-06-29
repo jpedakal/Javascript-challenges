@@ -498,9 +498,24 @@ series), which we don’t care about here, so we set itto null. The second argum
 be an array (or somethinglike an array—aka an “array-like object”). The contents of this“array” are 
 “spread” out as arguments to the function in question
 ----------------------------------------------------------------------------------------------------
+
+
+// Object creations
+ var c= new Object();
+ c.name= "jaya";
+ console.log(c);
+
+
+var c= {name: "jaya"};
+console.log(c);
+
+//function expression
+var e = new Function("a", "return a*2;");
+console.log(e(2));
+
+var f = function (a) { return a * 5 };
+console.log(f(4));
 */
-
-
 
 
 
