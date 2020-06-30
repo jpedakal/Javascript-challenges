@@ -446,7 +446,6 @@ console.log(e.toString()); // [object Undefined]
 var f= Object.prototype.toString.call(true);
 console.log(f); // [object Boolean]
 
-
 // Find the output of code
 var str= "abc";
 var b= new String(str);
