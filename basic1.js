@@ -522,4 +522,10 @@ function foo(x){
     }
 }
 foo(7);
-*/
+
+/*
+--------------------------------------------------------------------------------------------------
+ Converting a value from one type to another is often called “typecasting,” when done explicitly,
+ and “coercion” when done implicitly(forced by the rules of how a value is used).
+ -------------------------------------------------------------------------------------------------
+ */
