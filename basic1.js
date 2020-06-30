@@ -516,15 +516,3 @@ console.log(e(2));
 var f = function (a) { return a * 5 };
 console.log(f(4));
 */
-
-
-
-
-
-
-
-
-
-
-
-
