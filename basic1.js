@@ -339,7 +339,7 @@ var arr= [];
 arr["3"]= "three";
 console.log(arr.length);
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------
 if string is base10 number , then it will consider key as numeric
 ------------------------------------------------------------------------------------------------------
@@ -455,9 +455,9 @@ console.log(c);  // [String: 'abc']
 
 
 // Find the output of code
-var a = new String("abc"); 
-var b = new Number(42); 
-var c = new Boolean(true); 
+var a = new String("abc");
+var b = new Number(42);
+var c = new Boolean(true);
 
 console.log(a.valueOf()); // "abc"
 console.log(b.valueOf()); // 42
@@ -465,7 +465,7 @@ console.log(c.valueOf()); // true
 
 /**
  ---------------------------------------------------------------------------------------------------
- If you have an object wrapper and you want to get the underlyingprimitive value out, 
+ If you have an object wrapper and you want to get the underlyingprimitive value out,
  you can use the valueOf() method
  ---------------------------------------------------------------------------------------------------
 
@@ -493,12 +493,11 @@ console.log(a);   // [undefined, undefined, undefined]
 
 /*
 ----------------------------------------------------------------------------------------------------
-The first argument is a this object binding (covered in the this &Object Prototypes title in this 
-series), which we don’t care about here, so we set itto null. The second argument is supposed to 
-be an array (or somethinglike an array—aka an “array-like object”). The contents of this“array” are 
+The first argument is a this object binding (covered in the this &Object Prototypes title in this
+series), which we don’t care about here, so we set itto null. The second argument is supposed to
+be an array (or somethinglike an array—aka an “array-like object”). The contents of this“array” are
 “spread” out as arguments to the function in question
 ----------------------------------------------------------------------------------------------------
-
 
 // Object creations
  var c= new Object();
