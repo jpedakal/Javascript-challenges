@@ -520,7 +520,6 @@ console.log(f(4));
 console.log(Date());      //  "Tue Jun 30 2020 09:48:59 GMT+0530 (India Standard Time)"
 console.log(new Date()); // 2020-06-30T04:18:59.978Z
 console.log(Date.now()); // 1593490820753 --> ES5 format
-*/
 
 function foo(x){
     if(!x){
@@ -528,3 +527,4 @@ function foo(x){
     }
 }
 foo(7);
+*/
