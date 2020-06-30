@@ -349,7 +349,6 @@ if string is base10 number , then it will consider key as numeric
 var a= 2/ "one";
 console.log(window.isNaN(a));  // true
 
-
 // Find the output of below code
 var a= "foo";
 console.log(window.isNaN(a));  // true
