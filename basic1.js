@@ -528,4 +528,9 @@ foo(7);
  Converting a value from one type to another is often called “typecasting,” when done explicitly,
  and “coercion” when done implicitly(forced by the rules of how a value is used).
  -------------------------------------------------------------------------------------------------
+ 
+
+ var a= 56;
+ var b= a+ "";          // implicit coercion
+ var c= String(a);      // explicit coercion
  */
