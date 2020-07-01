@@ -535,5 +535,5 @@ foo(7);
  */
 
 // Find the output of below code
-var a = 1.07 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000;
-console.log(typeof a.toString());
+var a = [1, 2, 3];
+console.log(a.toString());
