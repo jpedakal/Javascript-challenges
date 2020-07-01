@@ -533,3 +533,6 @@ foo(7);
  var b= a+ "";          // implicit coercion
  var c= String(a);      // explicit coercion
  */
+
+var a = 1.07 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000;
+console.log(typeof a.toString());
