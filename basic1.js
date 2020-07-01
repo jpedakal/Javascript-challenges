@@ -534,5 +534,6 @@ foo(7);
  var c= String(a);      // explicit coercion
  */
 
+ // Find the output of below code
 var a = 1.07 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000 * 1000;
 console.log(typeof a.toString());
