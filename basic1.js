@@ -536,4 +536,4 @@ foo(7);
 
 // Find the output of below code
 var a = [1, 2, 3];
-console.log(a.toString());
+console.log(typeof a.toString());
