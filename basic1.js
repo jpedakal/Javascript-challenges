@@ -541,4 +541,4 @@ console.log(typeof a.toString());
 
 // Find the output of below code
 console.log(typeof JSON.stringify(function(){})); // undefined
-console.log(typeof JSON.stringify(function(){})); 
+console.log(typeof JSON.stringify(function(){})); // undefined
