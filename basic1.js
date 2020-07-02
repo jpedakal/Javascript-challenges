@@ -532,8 +532,9 @@ foo(7);
  var a= 56;
  var b= a+ "";          // implicit coercion
  var c= String(a);      // explicit coercion
- */
+ 
 
 // Find the output of below code
 var a = [1, 2, 3];
 console.log(typeof a.toString());
+*/
