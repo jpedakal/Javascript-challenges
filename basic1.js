@@ -538,3 +538,5 @@ foo(7);
 var a = [1, 2, 3];
 console.log(typeof a.toString());
 */
+
+// Find the output of below code
