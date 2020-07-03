@@ -561,3 +561,5 @@ obj.e= a;
 a.toJSON= function(){
     return {b: this.b}
 }
+
+console.log(JSON.stringify(a));
