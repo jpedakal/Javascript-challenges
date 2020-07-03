@@ -556,4 +556,5 @@ var a= {
 }
 
 obj.e= a;
-console.log(a);
+console.log(a);  // { b: 42, c: { e: [Circular] }, d: [Function: d] }
+JSON.stringify(a);  // will get an error "TypeError: Converting circular structure to JSON"
