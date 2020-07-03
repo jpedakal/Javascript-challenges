@@ -546,7 +546,6 @@ console.log(JSON.stringify({a: 4, b: function(){}})); // "{"a":4}"
 */
 
 // Find the output of below code
-
 var obj= {};
 
 var a= {
