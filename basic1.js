@@ -564,3 +564,7 @@ a.toJSON= function(){
 
 console.log(JSON.stringify(a)); // "{"b":42}"
 */
+
+// find the output of below code
+var object= 435;
+console.log(object.toJSON);
