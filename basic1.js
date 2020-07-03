@@ -539,10 +539,10 @@ var a = [1, 2, 3];
 console.log(typeof a.toString());
 
 // Find the output of below code
-console.log(JSON.stringify(undefined)); // undefined
-console.log(JSON.stringify(function(){})); // undefined
-console.log(JSON.stringify([1,undefined,function(){},4])); // [1, null, null, 4]
-console.log(JSON.stringify({a: 4, b: function(){}})); // "{"a":4}"
+console.log(JSON.stringify(undefined));    // undefined
+console.log(JSON.stringify(function(){}));    // undefined
+console.log(JSON.stringify([1,undefined,function(){},4]));    // [1, null, null, 4]
+console.log(JSON.stringify({a: 4, b: function(){}}));     // "{"a":4}"
 */
 
 // Find the output of below code
