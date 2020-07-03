@@ -562,4 +562,4 @@ a.toJSON= function(){
     return {b: this.b}
 }
 
-console.log(JSON.stringify(a)); // {"b":42}
+console.log(JSON.stringify(a)); // "{"b":42}"
