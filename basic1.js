@@ -563,8 +563,25 @@ a.toJSON= function(){
 }
 
 console.log(JSON.stringify(a)); // "{"b":42}"
-*/
+
 
 // find the output of below code
 var object= 435;
 console.log(object.toJSON);
+
+
+// Find the output of below code
+console.log('1');
+setTimeout(function () {
+    console.log('2');
+}, 1);
+
+setTimeout(function () {
+    console.log('3');
+}, 10);
+
+setTimeout(function () {
+    console.log('4');
+}, 0);
+console.log('5');
+*/
