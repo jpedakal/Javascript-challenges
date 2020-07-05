@@ -584,7 +584,8 @@ setTimeout(function () {
     console.log('4');
 }, 0);
 console.log('5');
-*/
+
 
 //Find the output of below code
+*/
 
