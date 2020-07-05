@@ -587,5 +587,26 @@ console.log('5');
 
 
 //Find the output of below code
+var a = { b: 42 };
+var b = { b: 43 };
+
+console.log(a < b);
+/*
+a < b is also false, because a becomes [object Object] and b becomes [object Object], 
+and so clearly a is not lexicographicallyless than b.
 */
+
+// Find the output of below code
+var a = { b: 42 };
+var b = { b: 43 };
+
+console.log(a == b);     // false
+console.log(a <= b);     // true
+console.log(a >= b);     // true
+
+/*
+Because the spec says for a <= b, it will actually evaluate b < afirst, and then negate that 
+result. Since b < a is also false, theresult of a <= b is true.
+*/
+
 
