@@ -500,7 +500,6 @@ be an array (or somethinglike an array—aka an “array-like object”). The co
  c.name= "jaya";
  console.log(c);
 
-
 var c= {name: "jaya"};
 console.log(c);
 
