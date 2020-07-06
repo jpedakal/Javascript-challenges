@@ -608,5 +608,3 @@ console.log(a >= b);     // true
 Because the spec says for a <= b, it will actually evaluate b < afirst, and then negate that 
 result. Since b < a is also false, theresult of a <= b is true.
 */
-
-
