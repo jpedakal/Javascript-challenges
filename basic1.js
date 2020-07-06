@@ -569,7 +569,6 @@ console.log(JSON.stringify(a)); // "{"b":42}"
 var object= 435;
 console.log(object.toJSON);
 
-
 // Find the output of below code
 console.log('1');
 setTimeout(function () {
