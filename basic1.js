@@ -594,7 +594,6 @@ console.log(a < b);
 /*
 a < b is also false, because a becomes [object Object] and b becomes [object Object], 
 and so clearly a is not lexicographicallyless than b.
-*/
 
 // Find the output of below code
 var a = { b: 42 };
