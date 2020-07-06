@@ -609,4 +609,33 @@ Because the spec says for a <= b, it will actually evaluate b < afirst, and then
 result. Since b < a is also false, theresult of a <= b is true.
 
 //Find the output of below code
+function foo(){
+    a= a+1;
+    console.log(a);
+}
+
+foo();      // output will be NaN
+var a=1;
+
+
+//Find the output of below code
+function foo() {
+    a = a + 1;
+    console.log(a);
+}
+var a = 1;
+foo();      // output will be 2
+
+
+// Find the output of below code
+var a = 20;
+var b = a++;
+
+console.log(a); // 21
+console.log(b); // 20
+
+/*
+The expression a++ has two separate behaviors. First, it returns thecurrent value of a,
+which is 42 (which then gets assigned to b).But next, it changes the value of a itself,
+incrementing it by one:
 */
