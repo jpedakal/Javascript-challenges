@@ -634,8 +634,26 @@ var b = a++;
 console.log(a); // 21
 console.log(b); // 20
 
-/*
-The expression a++ has two separate behaviors. First, it returns thecurrent value of a,
+/* 
+The expression a++ has two separate behaviors. First, it returns the current value of a,
 which is 42 (which then gets assigned to b).But next, it changes the value of a itself,
 incrementing it by one:
+
+//Find the output of code
+var a=20;
+var b= ++a;
+console.log(a); // 21
+console.log(b); // 21
+
+
+var a = 42, b;
+b = ( a++, a );
+
+console.log(a);  // 43
+console.log(b);  // 43
+
+/*
+The expression a++, a means that the second a statement expression gets evaluated after 
+the after side effects of the a++ expression,which means it returns the 43 value for 
+assignment to b.
 */
