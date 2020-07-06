@@ -585,7 +585,6 @@ setTimeout(function () {
 }, 0);
 console.log('5');
 
-
 //Find the output of below code
 var a = { b: 42 };
 var b = { b: 43 };
