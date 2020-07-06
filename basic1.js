@@ -85,7 +85,12 @@ console.log('function 2', foo2());
 
 // Write the output of below code
 console.log(0.1 + 0.2);
-console.log(0.1 + 0.2 == 0.3);
+console.log(0.1 + 0.2 === 0.3);
+
+/*
+Simply put, the representations for 0.1 and 0.2 in binary floatingpoint are not exact, 
+so when they are added, the result is not exactly0.3. It’s really close, 0.30000000000000004, 
+but if yourcomparison fails, “close” is irrelevant
 
 
 // "this" keyword sample example
