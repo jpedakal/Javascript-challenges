@@ -698,5 +698,5 @@ function allVowels(str) {
     }
 }
 
-allVowels('hello world');  //  ['e', 'o', 'o']
+allVowels('ghy');  //  ['e', 'o', 'o']
 */
