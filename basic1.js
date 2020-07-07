@@ -664,10 +664,28 @@ a = b = c = 42;
 console.log(a);  // 42
 console.log(b);  // 42
 console.log(c);  // 42
-*/
+
+
 // Find the output of below code in strict mode
 'use strict';
 
 var a = b = 42;    // ReferenceError: b is not defined
 console.log(a);
 console.log(b);
+*/
+
+// Find the vowels in string
+function allVowels(str){
+    var matches;
+    
+    if(str){
+      matches= str.match(/[aeiou]/g);
+      if(matches){
+          console.log(matches);
+      }
+    }
+}
+
+allVowels('hello world');  //  ['e', 'o', 'o']
+
+
