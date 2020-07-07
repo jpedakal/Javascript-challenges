@@ -656,7 +656,7 @@ console.log(b);  // 43
 The expression a++, a means that the second a statement expression gets evaluated after 
 the after side effects of the a++ expression,which means it returns the 43 value for 
 assignment to b.
-*/
+
 
 // Find the output of below code
 var a, b, c;
@@ -664,3 +664,10 @@ a = b = c = 42;
 console.log(a);  // 42
 console.log(b);  // 42
 console.log(c);  // 42
+*/
+// Find the output of below code in strict mode
+'use strict';
+
+var a = b = 42;    // ReferenceError: b is not defined
+console.log(a);
+console.log(b);
