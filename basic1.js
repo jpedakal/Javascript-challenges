@@ -657,3 +657,10 @@ The expression a++, a means that the second a statement expression gets evaluate
 the after side effects of the a++ expression,which means it returns the 43 value for 
 assignment to b.
 */
+
+// Find the output of below code
+var a, b, c;
+a = b = c = 42;
+console.log(a);  // 42
+console.log(b);  // 42
+console.log(c);  // 42
