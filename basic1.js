@@ -672,20 +672,31 @@ console.log(c);  // 42
 var a = b = 42;    // ReferenceError: b is not defined
 console.log(a);
 console.log(b);
-*/
+
 
 // Find the vowels in string
-function allVowels(str){
+function allVowels(str) {
     var matches;
-    
-    if(str){
-      matches= str.match(/[aeiou]/g);
-      if(matches){
-          console.log(matches);
-      }
+
+    if (str) {
+        matches = str.match(/[aeiou]/g);
+        if (matches) {
+            console.log(matches);
+        }
     }
 }
 
 allVowels('hello world');  //  ['e', 'o', 'o']
 
+// ( OR )  //
 
+function allVowels(str) {
+    var matches;
+
+    if (str && (matches = str.match(/[aeiou]/g))) {
+        console.log(matches);
+    }
+}
+
+allVowels('hello world');  //  ['e', 'o', 'o']
+*/
