@@ -700,8 +700,3 @@ function allVowels(str) {
 
 allVowels('hello world');  //  ['e', 'o', 'o']
 */
-function bar(){
-
-}
-
-console.log(typeof {foo: bar()});
