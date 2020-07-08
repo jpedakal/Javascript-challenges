@@ -719,3 +719,4 @@ function foo(){
 }
 
 foo();  // Hello world
+*/
