@@ -709,4 +709,14 @@ foo: for (var i = 0; i < 9; i++) {
 }
 */
 
-func
+// non-labled block of code
+function foo(){
+    bar: {
+        console.log('Hello');
+        break bar;
+        console.log('second Hello');
+    }
+    console.log('world');
+}
+
+foo();  // Hello world
