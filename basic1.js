@@ -708,7 +708,6 @@ foo: for (var i = 0; i < 9; i++) {
     console.log(i)
 }
 
-
 // non-labled block of code
 function foo(){
     bar: {
