@@ -700,7 +700,7 @@ function allVowels(str) {
 
 allVowels('hello world');  //  ['e', 'o', 'o']
 
-
+// labled block of code
 foo: for (var i = 0; i < 9; i++) {
     if (i > 6) {
        continue foo;
@@ -709,3 +709,4 @@ foo: for (var i = 0; i < 9; i++) {
 }
 */
 
+func
