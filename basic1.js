@@ -699,7 +699,7 @@ function allVowels(str) {
 }
 
 allVowels('hello world');  //  ['e', 'o', 'o']
-*/
+
 
 foo: for (var i = 0; i < 9; i++) {
     if (i > 6) {
@@ -707,3 +707,4 @@ foo: for (var i = 0; i < 9; i++) {
     }
     console.log(i)
 }
+*/
