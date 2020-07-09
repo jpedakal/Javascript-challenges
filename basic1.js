@@ -724,7 +724,6 @@ foo();  // Hello world
 console.log([] + {});    // [object Object]
 console.log({} + []);    // [object Object]
 
-
 // Find the output of below code
 function getData() {
 
@@ -737,3 +736,4 @@ function getData() {
 const { a, b } = getData();
 
 console.log(a, b); // 42 'foo'
+*/
