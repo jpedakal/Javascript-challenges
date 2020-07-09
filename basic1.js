@@ -726,10 +726,14 @@ console.log({} + []);    // [object Object]
 */
 
 // Find the output of below code
-function getData(){
+function getData() {
 
     return {
         a: 42,
         b: 'foo'
     }
 }
+
+const { a, b } = getData();
+
+console.log(a, b); //
