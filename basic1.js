@@ -723,7 +723,7 @@ foo();  // Hello world
 // Find the output of below code
 console.log([] + {});    // [object Object]
 console.log({} + []);    // [object Object]
-*/
+
 
 // Find the output of below code
 function getData() {
