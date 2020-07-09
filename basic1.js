@@ -729,6 +729,7 @@ console.log({} + []);    // [object Object]
 function getData(){
 
     return {
-        a: 42
+        a: 42,
+        b: 'foo'
     }
 }
