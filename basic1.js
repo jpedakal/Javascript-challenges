@@ -724,3 +724,5 @@ foo();  // Hello world
 console.log([] + {});    // [object Object]
 console.log({} + []);    // [object Object]
 */
+
+// Find the output of below code
