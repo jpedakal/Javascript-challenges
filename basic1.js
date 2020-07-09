@@ -726,3 +726,6 @@ console.log({} + []);    // [object Object]
 */
 
 // Find the output of below code
+function getData(){
+    
+}
