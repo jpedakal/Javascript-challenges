@@ -719,7 +719,8 @@ function foo(){
 }
 
 foo();  // Hello world
-*/
+
 // Find the output of below code
 console.log([] + {});    // [object Object]
 console.log({} + []);    // [object Object]
+*/
