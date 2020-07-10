@@ -741,7 +741,7 @@ console.log(a, b); // 42 'foo'
 // Find the output of below code
 
 function foo({ a, b, c }) {
- console.log(a,b,c);
+    console.log(c, b, a);
 }
 
-foo()
+foo({ a: [1, 2, 3], b: 34, c: 'foo' });
