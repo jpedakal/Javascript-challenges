@@ -739,3 +739,7 @@ console.log(a, b); // 42 'foo'
 */
 
 // Find the output of below code
+
+function foo({}){
+    
+}
