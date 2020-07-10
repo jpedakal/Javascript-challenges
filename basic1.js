@@ -746,3 +746,15 @@ foo({ a: [1, 2, 3], b: 34, c: 'foo' });  // foo 34 [1,2,3]
 */
 
 // Find the output of below code
+let a = 1;
+
+if (a > 12) {
+    console.log('a is greater');
+} else {
+    if (a === 10) {
+        console.log('a is equal');
+    }
+    else {
+        console.log('a is lesser');
+    }
+} 
