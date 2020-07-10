@@ -744,4 +744,4 @@ function foo({ a, b, c }) {
     console.log(c, b, a);
 }
 
-foo({ a: [1, 2, 3], b: 34, c: 'foo' });
+foo({ a: [1, 2, 3], b: 34, c: 'foo' });  // foo 34 [1,2,3]
