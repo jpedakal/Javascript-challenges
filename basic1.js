@@ -743,3 +743,4 @@ function foo({ a, b, c }) {
 }
 
 foo({ a: [1, 2, 3], b: 34, c: 'foo' });  // foo 34 [1,2,3]
+*/
