@@ -743,7 +743,6 @@ function foo({ a, b, c }) {
 }
 
 foo({ a: [1, 2, 3], b: 34, c: 'foo' });  // foo 34 [1,2,3]
-*/
 
 // Find the output of below code
 let a = 1;
@@ -772,3 +771,5 @@ else {
     console.log('a is lesser');
 
 }
+*/
+// 
