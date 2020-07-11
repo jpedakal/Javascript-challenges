@@ -757,4 +757,18 @@ if (a > 12) {
     else {
         console.log('a is lesser');
     }
-} 
+}
+
+(OR)
+
+let a = 1;
+
+if (a > 12) {
+    console.log('a is greater');
+} else if (a === 10) {
+    console.log('a is equal');
+}
+else {
+    console.log('a is lesser');
+
+}
