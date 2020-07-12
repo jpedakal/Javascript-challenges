@@ -767,6 +767,5 @@ if (a > 12) {
 }
 else {
     console.log('a is lesser');
-
 }
 // Find the output of below code
