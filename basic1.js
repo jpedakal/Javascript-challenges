@@ -757,7 +757,6 @@ if (a > 12) {
         console.log('a is lesser');
     }
 }
-
 (OR)
 let a = 1;
 
