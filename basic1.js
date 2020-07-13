@@ -803,3 +803,5 @@ var b = a++, a;  // just removed bracket here
 console.log(a);  // 43
 console.log(b);  // 42
 */
+
+// Find the output of below code
