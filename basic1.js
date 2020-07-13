@@ -776,3 +776,5 @@ var a = 42;
 var b = 'foo';
 console.log(a || b); // 42
 console.log(a && b); // foo
+
+// Find the output of two operator and three operands
