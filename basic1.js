@@ -768,7 +768,6 @@ if (a > 12) {
 else {
     console.log('a is lesser');
 }
-*/
 
 // Find the output of one operator and two operands
 
@@ -776,6 +775,19 @@ var a = 42;
 var b = 'foo';
 console.log(a || b); // 42
 console.log(a && b); // foo
-
+*/
 // Find the output of two operator and three operands
 
+var a = 42;
+var b = 'foo';
+var c = [1, 2, 3];
+
+console.log(a && b || c); // foo
+console.log(a || b && c); // 42
+
+/**
+ To understand what those expressions result in, we’re going to need to understand what rules govern 
+ how the operators are processed when there’s more than one present in an expression.
+
+These rules are called “operator precedence.”
+ */
