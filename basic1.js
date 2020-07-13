@@ -770,7 +770,7 @@ else {
 }
 */
 
-// Operator Precedence
+// Find the output of one operator and two operands
 
 var a = 42;
 var b = 'foo';
