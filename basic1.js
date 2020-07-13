@@ -791,7 +791,6 @@ console.log(a || b && c); // 42
 
 These rules are called “operator precedence.”
  
-
  // Find the output of below code
 var a = 42, b;
 var b = (a++, a);
