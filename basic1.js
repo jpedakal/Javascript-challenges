@@ -802,6 +802,13 @@ var a = 42, b;
 var b = a++, a;  // just removed bracket here
 console.log(a);  // 43
 console.log(b);  // 42
-*/
 
 // Find the output of below code
+var a = 42;
+var b = "foo";
+var c = false;
+var d = a && b || c ? c || b ? a : c && b : a;
+// we can resolve this by ((a && b) || c) ? ((c || b) ? a : (c && b)) : a
+console.log(d); // 42
+*/
+
