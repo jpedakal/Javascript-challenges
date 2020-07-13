@@ -775,7 +775,7 @@ var a = 42;
 var b = 'foo';
 console.log(a || b); // 42
 console.log(a && b); // foo
-*/
+
 // Find the output of two operator and three operands
 
 var a = 42;
@@ -790,4 +790,17 @@ console.log(a || b && c); // 42
  how the operators are processed when there’s more than one present in an expression.
 
 These rules are called “operator precedence.”
- */
+ 
+
+ // Find the output of below code
+var a = 42, b;
+var b = (a++, a);
+console.log(a);  // 43
+console.log(b); // 43
+
+// Find the output of below code
+var a = 42, b;
+var b = a++, a;  // just removed bracket here
+console.log(a);  // 43
+console.log(b);  // 42
+*/
