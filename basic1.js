@@ -815,3 +815,4 @@ console.log(d); // 42
 // Find the output of below code
 
 // Find the output of below code
+
