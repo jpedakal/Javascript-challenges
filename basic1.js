@@ -785,7 +785,7 @@ var c = [1, 2, 3];
 console.log(a && b || c); // foo
 console.log(a || b && c); // 42
 
-/**
+/****
  To understand what those expressions result in, we’re going to need to understand what rules govern 
  how the operators are processed when there’s more than one present in an expression.
 
