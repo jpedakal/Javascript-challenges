@@ -811,6 +811,5 @@ var d = a && b || c ? c || b ? a : c && b : a;
 // we can resolve this by ((a && b) || c) ? ((c || b) ? a : (c && b)) : a
 console.log(d); // 42
 */
-
 // Find the output of below code
 
