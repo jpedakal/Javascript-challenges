@@ -1,4 +1,11 @@
-Algoritham --> Set of rules.
-           --> Any language can implement.
-           --> To store and processthe data.
-           --> Information must be stored in structure form.
+Algoritham
+-------------------------------
+* Set of rules.
+* Any language can implement.
+* To store and processthe data.
+* Information must be stored in structure form.
+
+
+Linear Datastructure Examples:
+-------------------------------
+* Array
