@@ -16,4 +16,4 @@ Linear Datastructure Examples:
 Object
 ------------------------------
 It is a real world entity consists of
-* 
+* Identity --> It is unique and used to access the object.
