@@ -10,3 +10,4 @@ Linear Datastructure Examples:
 -------------------------------
 * Array --> Elements stored in sequence way.
 * Stack --> Last-In and first-out.
+* Queue --> Fist-in and First-out.
