@@ -8,4 +8,5 @@ Algoritham
 
 Linear Datastructure Examples:
 -------------------------------
-* Array
+* Array --> Elements stored in sequence way.
+* Stack --> Last-In and first-out.
