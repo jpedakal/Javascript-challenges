@@ -12,3 +12,8 @@ Linear Datastructure Examples:
 * Stack --> Last-In and first-out.
 * Queue --> Fist-in and First-out.
 * Linked List --> Stored elements in the form of nodes.
+
+Object
+------------------------------
+It is a real world entity consists of
+* 
