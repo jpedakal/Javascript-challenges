@@ -17,3 +17,5 @@ Object
 ------------------------------
 It is a real world entity consists of
 * Identity --> It is unique and used to access the object.
+* Variable --> To store Information of object.
+* Function --> To process the Information.
