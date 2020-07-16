@@ -809,9 +809,14 @@ var b = "foo";
 var c = false;
 var d = a && b || c ? c || b ? a : c && b : a;         // we can resolve this by ((a && b) || c) ? ((c || b) ? a : (c && b)) : a
 console.log(d); // 42
+
+// Find the output of below code
+var a=42,b
+c;
+console.log(c);  // not defined
 */
-
 // Find the output of below code
-
-// Find the output of below code
+var a=42, b='foo';
+console.log(a); 
+console.log(b); 
 
