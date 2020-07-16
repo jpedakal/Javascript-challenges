@@ -852,13 +852,15 @@ console.log(42); // Invalid left-hand side in assignment
 // Find the output of below code
 var a= /+foo/;
 console.log(a);    // SyntaxError: Invalid regular expression: /+foo/: Nothing to repeat
-*/
 
 // Find the output of below code
-'use strict';
+ 'use strict';
 function foo(a, b, a) {         // In strict mode duplicate arguements not allowed
     let d = a + b + a;
     console.log('output: '+d);
 }
 
 foo(1,2,3); // SyntaxError: Duplicate parameter name not allowed in this context
+*/
+
+// Find the output of below code
