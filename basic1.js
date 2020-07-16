@@ -819,7 +819,6 @@ console.log(c);  // not defined
 var a=42, b='foo';
 console.log(a); 
 console.log(b); 
-*/
 
 // Find the output of below code
 function mulNum(a) {
@@ -828,3 +827,12 @@ function mulNum(a) {
 }
 
 console.log(mulNum(2)); // undefined
+*/
+
+// Find the output of code
+function mulNum(a) {
+    if (a) return a *=2;
+}
+
+console.log(mulNum(2)); // 4
+
