@@ -854,3 +854,4 @@ var a= /+foo/;
 console.log(a);    // SyntaxError: Invalid regular expression: /+foo/: Nothing to repeat
 */
 
+// Find the output of below code
