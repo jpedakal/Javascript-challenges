@@ -834,4 +834,13 @@ function mulNum(a) {
 }
 
 console.log(mulNum(2)); // 4
+
+
+function mulNum(b) {
+    return (
+        b *= b + 2
+    );
+}
+
+console.log(mulNum(3)) // 15
 */
