@@ -821,4 +821,10 @@ console.log(a);
 console.log(b); 
 */
 
+// Find the output of below code
+function mulNum(a) {
+    if (a) return
+     a *=2;
+}
 
+console.log(mulNum(2)); // undefined
