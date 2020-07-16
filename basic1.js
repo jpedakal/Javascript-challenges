@@ -814,9 +814,11 @@ console.log(d); // 42
 var a=42,b
 c;
 console.log(c);  // not defined
-*/
+
 // Find the output of below code
 var a=42, b='foo';
 console.log(a); 
 console.log(b); 
+*/
+
 
