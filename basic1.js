@@ -835,7 +835,7 @@ function mulNum(a) {
 
 console.log(mulNum(2)); // 4
 
-
+// Find the output of code
 function mulNum(b) {
     return (
         b *= b + 2
