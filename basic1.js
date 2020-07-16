@@ -855,3 +855,10 @@ console.log(a);    // SyntaxError: Invalid regular expression: /+foo/: Nothing t
 */
 
 // Find the output of below code
+'use strict';
+function foo(a, b, a) {         // In strict mode duplicate arguements not allowed
+    let d = a + b + a;
+    console.log('output: '+d);
+}
+
+foo(1,2,3); // SyntaxError: Duplicate parameter name not allowed in this context
