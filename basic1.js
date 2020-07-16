@@ -843,12 +843,14 @@ function mulNum(b) {
 }
 
 console.log(mulNum(3)) // 15
-*/
 
 // Find the output of code
 var a;
 42 = a;
 console.log(42); // Invalid left-hand side in assignment
 
-
+// Find the output of below code
+var a= /+foo/;
+console.log(a);    // SyntaxError: Invalid regular expression: /+foo/: Nothing to repeat
+*/
 
