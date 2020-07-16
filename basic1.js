@@ -827,7 +827,6 @@ function mulNum(a) {
 }
 
 console.log(mulNum(2)); // undefined
-*/
 
 // Find the output of code
 function mulNum(a) {
@@ -835,4 +834,4 @@ function mulNum(a) {
 }
 
 console.log(mulNum(2)); // 4
-
+*/
