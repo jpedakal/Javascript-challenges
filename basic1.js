@@ -861,6 +861,21 @@ function foo(a, b, a) {         // In strict mode duplicate arguements not allow
 }
 
 foo(1,2,3); // SyntaxError: Duplicate parameter name not allowed in this context
+
+// Find the output of below code
+{
+    console.log(typeof a);   // undefined
+    console.log(typeof b);   // ReferenceError! (TDZ)
+    let b;
+}
 */
 
 // Find the output of below code
+var b = 3;
+
+function foo( a = 42, b = a + b + 5 ) {
+    let c= a+b;
+    console.log(c);
+}
+
+foo(); // ReferenceError: b is not defined
