@@ -879,7 +879,6 @@ function foo( a = 42, b = a + b + 5 ) {
 }
 
 foo(); // ReferenceError: b is not defined
-*/
 
 // Find the output of below code
 function foo(a = 38, b = a + 2) {
@@ -890,3 +889,4 @@ foo(undefined);
 foo(5); // 5 7
 foo(void 0, 7); // 38 7
 foo(null); // null 2
+*/
