@@ -884,11 +884,11 @@ foo(); // ReferenceError: b is not defined
 function foo(a = 38, b = a + 2) {
     console.log(a, b);
 }
-foo(); // 38 40
-foo(undefined);
-foo(5); // 5 7
-foo(void 0, 7); // 38 7
-foo(null); // null 2
+foo();                // 38 40
+foo(undefined);       // 38 40   --> From the ES6 default parameter values perspective, there’s no difference between omitting an argument and passing an undefined value
+foo(5);               // 5 7
+foo(void 0, 7);       // 38 7
+foo(null);            // null 2
 */
 
 // Find the output of below code
@@ -896,7 +896,7 @@ function foo(a = 42, b = a + 3) {
     console.log(arguments.length, a, b, arguments[0], arguments[1]);
 }
 
-foo(); // 0 42 45 undefined undefined
-foo(10); // 1 10 13 10 undefined
-foo(10, undefined); // 2 10 13 10 undefined
-foo(10, null); // 2 10 null 10 null
+foo();                 // 0 42 45 undefined undefined
+foo(10);               // 1 10 13 10 undefined
+foo(10, undefined);    // 2 10 13 10 undefined
+foo(10, null);         // 2 10 null 10 null
