@@ -890,3 +890,13 @@ foo(5); // 5 7
 foo(void 0, 7); // 38 7
 foo(null); // null 2
 */
+
+// Find the output of below code
+function foo(a = 42, b = a + 3) {
+    console.log(arguments.length, a, b, arguments[0], arguments[1]);
+}
+
+foo(); // 0 42 45 undefined undefined
+foo(10); // 1 10 13 10 undefined
+foo(10, undefined); // 2 10 13 10 undefined
+foo(10, null); // 2 10 null 10 null
