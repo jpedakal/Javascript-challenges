@@ -868,7 +868,7 @@ foo(1,2,3); // SyntaxError: Duplicate parameter name not allowed in this context
     console.log(typeof b);   // ReferenceError! (TDZ)
     let b;
 }
-*/
+
 
 // Find the output of below code
 var b = 3;
@@ -879,3 +879,4 @@ function foo( a = 42, b = a + b + 5 ) {
 }
 
 foo(); // ReferenceError: b is not defined
+*/
