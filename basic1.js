@@ -880,3 +880,5 @@ function foo( a = 42, b = a + b + 5 ) {
 
 foo(); // ReferenceError: b is not defined
 */
+var a= undefined+1;
+console.log(a);
