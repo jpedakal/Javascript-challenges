@@ -882,6 +882,11 @@ foo(); // ReferenceError: b is not defined
 */
 
 // Find the output of below code
-function foo(){
-
+function foo(a = 38, b = a + 2) {
+    console.log(a, b);
 }
+//foo(); // 38 40
+//foo(undefined);
+//foo(5); // 5 7
+//foo(void 0, 7); // 38 7
+foo(null); // null 2
