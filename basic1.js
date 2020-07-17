@@ -899,12 +899,12 @@ foo();                 // 0 42 45 undefined undefined
 foo(10);               // 1 10 13 10 undefined
 foo(10, undefined);    // 2 10 13 10 undefined
 foo(10, null);         // 2 10 null 10 null
-*/
 
 // Find the output of the code
-function foo(a, b) {
-    a = 42;
-    b = 9;
-    console.log(arguments[0], arguments[1]);
+function foo(a) {
+    a = 45;
+    console.log(arguments[0]);  // 45
 }
-foo(3, 7);
+
+foo(3); // If you pass an argument, the arguments slot and the named parameter are linked to always have the same value.
+*/
