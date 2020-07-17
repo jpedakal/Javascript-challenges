@@ -900,3 +900,11 @@ foo(10);               // 1 10 13 10 undefined
 foo(10, undefined);    // 2 10 13 10 undefined
 foo(10, null);         // 2 10 null 10 null
 */
+
+// Find the output of the code
+function foo(a, b) {
+    a = 42;
+    b = 9;
+    console.log(arguments[0], arguments[1]);
+}
+foo(3, 7);
