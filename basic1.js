@@ -920,7 +920,6 @@ function foo() {
 }
 
 console.log(foo());
-*/
 
 // try___catch block
 function foo() {
@@ -934,5 +933,6 @@ function foo() {
 }
 
 console.log(foo());
+*/
 
 
