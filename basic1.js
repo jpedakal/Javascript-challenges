@@ -934,3 +934,5 @@ function foo() {
 
 console.log(foo());
 */
+
+// Find the output of code
