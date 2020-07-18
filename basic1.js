@@ -922,4 +922,17 @@ function foo() {
 console.log(foo());
 */
 
+// try___catch block
+function foo() {
+    try {
+        throw 42;
+    }
+    finally {
+        console.log('Hello');
+    }
+    console.log('never runs');
+}
+
+console.log(foo());
+
 
