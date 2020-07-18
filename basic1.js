@@ -909,3 +909,15 @@ function foo(a) {
 foo(3); // If you pass an argument, the arguments slot and the named parameter are linked to always have the same value.
 */
 
+// try___catch block
+function foo() {
+    try {
+        return 42;
+    }
+    finally {
+        console.log('Hello');
+    }
+    console.log('never runs');
+}
+
+console.log(foo());
