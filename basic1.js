@@ -907,7 +907,6 @@ function foo(a) {
 }
 
 foo(3); // If you pass an argument, the arguments slot and the named parameter are linked to always have the same value.
-*/
 
 // try___catch block
 function foo() {
@@ -921,3 +920,4 @@ function foo() {
 }
 
 console.log(foo());
+*/
