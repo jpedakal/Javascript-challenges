@@ -88,8 +88,8 @@ console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 === 0.3);
 
 /*
-Simply put, the representations for 0.1 and 0.2 in binary floatingpoint are not exact, 
-so when they are added, the result is not exactly0.3. It’s really close, 0.30000000000000004, 
+Simply put, the representations for 0.1 and 0.2 in binary floatingpoint are not exact,
+so when they are added, the result is not exactly0.3. It’s really close, 0.30000000000000004,
 but if yourcomparison fails, “close” is irrelevant
 
 
@@ -532,11 +532,11 @@ foo(7);
  Converting a value from one type to another is often called “typecasting,” when done explicitly,
  and “coercion” when done implicitly(forced by the rules of how a value is used).
  -------------------------------------------------------------------------------------------------
- 
+
  var a= 56;
  var b= a+ "";          // implicit coercion
  var c= String(a);      // explicit coercion
- 
+
 
 // Find the output of below code
 var a = [1, 2, 3];
@@ -593,7 +593,7 @@ var b = { b: 43 };
 
 console.log(a < b);
 /*
-a < b is also false, because a becomes [object Object] and b becomes [object Object], 
+a < b is also false, because a becomes [object Object] and b becomes [object Object],
 and so clearly a is not lexicographicallyless than b.
 
 // Find the output of below code
@@ -605,7 +605,7 @@ console.log(a <= b);     // true
 console.log(a >= b);     // true
 
 /*
-Because the spec says for a <= b, it will actually evaluate b < afirst, and then negate that 
+Because the spec says for a <= b, it will actually evaluate b < afirst, and then negate that
 result. Since b < a is also false, theresult of a <= b is true.
 
 //Find the output of below code
@@ -634,7 +634,7 @@ var b = a++;
 console.log(a); // 21
 console.log(b); // 20
 
-/* 
+/*
 The expression a++ has two separate behaviors. First, it returns the current value of a,
 which is 42 (which then gets assigned to b).But next, it changes the value of a itself,
 incrementing it by one:
@@ -653,8 +653,8 @@ console.log(a);  // 43
 console.log(b);  // 43
 
 /*
-The expression a++, a means that the second a statement expression gets evaluated after 
-the after side effects of the a++ expression,which means it returns the 43 value for 
+The expression a++, a means that the second a statement expression gets evaluated after
+the after side effects of the a++ expression,which means it returns the 43 value for
 assignment to b.
 
 
@@ -786,11 +786,11 @@ console.log(a && b || c); // foo
 console.log(a || b && c); // 42
 
 /****
- To understand what those expressions result in, we’re going to need to understand what rules govern 
+ To understand what those expressions result in, we’re going to need to understand what rules govern
  how the operators are processed when there’s more than one present in an expression.
 
 These rules are called “operator precedence.”
- 
+
  // Find the output of below code
 var a = 42, b;
 var b = (a++, a);
@@ -817,8 +817,8 @@ console.log(c);  // not defined
 
 // Find the output of below code
 var a=42, b='foo';
-console.log(a); 
-console.log(b); 
+console.log(a);
+console.log(b);
 
 // Find the output of below code
 function mulNum(a) {
@@ -933,16 +933,28 @@ function foo() {
 }
 
 console.log(foo());
-*/
 
 // Find the output of code
-function foo() { 
-    try { 
+function foo() {
+    try {
         return 42;
-    } 
-    finally { 
-       throw "Oops!"; 
-    } 
-    console.log("never runs"); 
-} 
-    console.log(foo());
+    }
+    finally {
+       throw "Oops!";
+    }
+    console.log("never runs");
+}
+    console.log(foo()); // Uncaught exception
+
+
+function foo() {
+    try {
+        return 42;
+    }
+    finally {
+       return "Hello";
+    }
+}
+
+console.log(foo()); // Hello
+*/
