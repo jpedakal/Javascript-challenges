@@ -936,3 +936,13 @@ console.log(foo());
 */
 
 // Find the output of code
+function foo() { 
+    try { 
+        return 42;
+    } 
+    finally { 
+       throw "Oops!"; 
+    } 
+    console.log("never runs"); 
+} 
+    console.log(foo());
