@@ -986,5 +986,5 @@ switch (false) {
 		break;
 	default:
         console.log('default val');
-}  // 42 or'42'
+}  // 10 or '10' 
 
