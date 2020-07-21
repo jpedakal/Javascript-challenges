@@ -986,5 +986,5 @@ switch (false) {
 		break;
 	default:
         console.log('default val');
-}  // 10 or '10' 
+}  // 10 or '10'  ===> will give the first comparison failed value
 
