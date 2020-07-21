@@ -977,7 +977,7 @@ switch (true) {
 // Switch statement
 var a = "42";
 
-switch (true) {
+switch (false) {
 	case a == 34:
 		console.log( "10 or '10'" );
 		break;
@@ -987,4 +987,4 @@ switch (true) {
 	default:
         console.log('default val');
 }  // 42 or'42'
-*/
+
