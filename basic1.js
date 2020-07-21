@@ -987,7 +987,6 @@ switch (false) {
         console.log('default val');
 }  // 10 or '10'  ===> will give the first comparison failed value
 
-*/
 
 // Find the output of code
 var a = 10;
@@ -1002,3 +1001,5 @@ switch (a) {
         console.log("4");
         break;
 }         // default 3
+
+*/
