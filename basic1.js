@@ -972,7 +972,6 @@ switch (true) {
 	default:
         console.log('default val');
 }  // 42 or'42'
-*/
 
 // Switch statement
 var a = "42";
