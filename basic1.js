@@ -957,4 +957,19 @@ function foo() {
 }
 
 console.log(foo()); // Hello
+
+
+// Switch statement
+var a = "42";
+
+switch (true) {
+	case a == 34:
+		console.log( "10 or '10'" );
+		break;
+	case a == 42:
+		console.log( "42 or '42'" );
+		break;
+	default:
+        console.log('default val');
+}  // 42 or'42'
 */
