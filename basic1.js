@@ -989,3 +989,16 @@ switch (false) {
 
 */
 
+// Find the output of code
+var a = 10;
+switch (a) {
+    case 1:
+    case 2:		// never gets here	
+    default:
+        console.log("default");
+    case 3:
+        console.log("3");
+    case 4:
+        console.log("4");
+        break;
+}         // default 3
