@@ -987,3 +987,19 @@ switch (false) {
         console.log('default val');
 }  // 10 or '10'  ===> will give the first comparison failed value
 
+
+// Switch statement
+var a = "42";
+
+switch (true) {
+	case a == 34:
+		console.log( "10 or '10'" );
+		break;
+	case a == 42:
+		console.log( "42 or '42'" );
+		break;
+	default:
+        console.log('default val');
+}  // 42 or'42'
+*/
+
