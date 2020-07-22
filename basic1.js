@@ -1003,3 +1003,9 @@ switch (a) {
 }         // default 3
 
 */
+
+function foo(a) {
+    console.log(a + b);
+}
+var b = 5;
+foo(2);
