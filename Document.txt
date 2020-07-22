@@ -19,3 +19,10 @@ It is a real world entity consists of
 * Identity --> It is unique and used to access the object.
 * Variable --> To store Information of object.
 * Function --> To process the Information.
+
+Tokenizing/Lexing
+-------------------------------
+Breaking up a string of characters into meaningful (to the language) chunks, called tokens. For instance, 
+consider the program var a = 2;. This program would likely be broken up into the following tokens: var,
+a, =, 2, and ;. Whitespace may or may not be persisted as a token, depending on whether its meaningful
+or not.
