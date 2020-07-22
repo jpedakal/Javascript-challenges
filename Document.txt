@@ -23,6 +23,6 @@ It is a real world entity consists of
 Tokenizing/Lexing
 -------------------------------
 Breaking up a string of characters into meaningful (to the language) chunks, called tokens. For instance, 
-consider the program var a = 2;. This program would likely be broken up into the following tokens: var,
+consider the program var a = 4;. This program would likely be broken up into the following tokens: var,
 a, =, 2, and ;. Whitespace may or may not be persisted as a token, depending on whether its meaningful
 or not.
