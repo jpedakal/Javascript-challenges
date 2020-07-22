@@ -1003,3 +1003,5 @@ switch (a) {
 }         // default 3
 
 */
+
+console.log(Date.now());
