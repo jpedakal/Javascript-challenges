@@ -1007,5 +1007,5 @@ switch (a) {
 function foo(a) {
     console.log(a + b);
 }
-
+var b = 9;
 foo(2);
