@@ -1004,4 +1004,3 @@ switch (a) {
 
 */
 
-console.log(Date.now());
