@@ -5,7 +5,6 @@ Algoritham
 * To store and processthe data.
 * Information must be stored in structure form.
 
-
 Linear Datastructure Examples:
 -------------------------------
 * Array --> Elements stored in sequence way.
