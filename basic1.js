@@ -1009,4 +1009,3 @@ function foo(a) {
 var b = 9;
 foo(2); // LHS= b=9, a=2 and RHS= foo(..), a, b
 */
-
