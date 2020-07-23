@@ -1002,10 +1002,11 @@ switch (a) {
         break;
 }         // default 3
 
-*/
 // Find the LHS('Left Hand Side') and RHS('Right Hand Side') look up's for below code
 function foo(a) {
     console.log(a + b);
 }
 var b = 9;
 foo(2); // LHS= b=9, a=2 and RHS= foo(..), a, b
+*/
+
