@@ -1009,3 +1009,14 @@ function foo(a) {
 var b = 9;
 foo(2); // LHS= b=9, a=2 and RHS= foo(..), a, b
 */
+
+const arr = ["one", "two", "three", "four"];
+console.log(arr[2]);       // three
+console.log(arr["2"]);     // three
+console.log(arr["02"]);    // undefined
+
+/**
+ The 2 in arr[2] is coerced into a string by the JavaScript engine through an 
+ implicit toString conversion. As a result, '2' and '02' would refer to two different 
+ slots on the arr object.
+ */
