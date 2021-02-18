@@ -1,6 +1,4 @@
-(function () {
-    var a = b = 3;
-})();
+let n1=0
+let n2=1
 
-console.log("a defined? " + (typeof a !== 'undefined'));
-console.log("b defined? " + (typeof b !== 'undefined'));
+for(let )
