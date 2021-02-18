@@ -1,6 +1,6 @@
-var name = "jayakrishna";
+(function () {
+    var a = b = 3;
+})();
 
-function outerFunction() {
-    var age = 19;
-    
-}
+console.log("a defined? " + (typeof a !== 'undefined'));
+console.log("b defined? " + (typeof b !== 'undefined'));
