@@ -613,7 +613,6 @@ function foo(){
 foo();      // output will be NaN
 var a=1;
 
-
 //Find the output of below code
 function foo() {
     a = a + 1;
