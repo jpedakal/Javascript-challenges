@@ -425,7 +425,6 @@ console.log(a);
 console.log(typeof a);    //object
 console.log(a instanceof String);
 
-
 // Find the output of below code
 var a= Object.prototype.toString.call([1,2,3]);
 console.log(a); // [object Array]
