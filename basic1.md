@@ -24,7 +24,7 @@
 	    var sum = a + b;
 	    return sum;
 	}
-	console.log(addNum.length)
+	console.log(addNum.length); // 3 - It calculates arguments length
 
 <b>Example:4</b>
 
