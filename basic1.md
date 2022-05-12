@@ -56,77 +56,80 @@
 
 
 
-// Write the output of below code
-(function () {
-    var a = b = 3;
-})();
+<b>Write the output of below code</b>
+	
+	(function () {
+	    var a = b = 3;
+	})();
 
-console.log("a defined? " + (typeof a !== 'undefined'));
-console.log("b defined? " + (typeof b !== 'undefined'));
-
-
-// Write the output of below code
-function foo1() {
-    return {
-        bar: "hello"
-    };
-}
-
-function foo2() {
-    return
-    {
-        bar: "hello"
-    };
-}
-console.log('function 1', foo1());
-console.log('function 2', foo2());
+	console.log("a defined? " + (typeof a !== 'undefined'));
+	console.log("b defined? " + (typeof b !== 'undefined'));
 
 
-// Write the output of below code
-console.log(0.1 + 0.2);
-console.log(0.1 + 0.2 === 0.3);
+<b>Write the output of below code</b>
+	
+	function foo1() {
+	    return {
+		bar: "hello"
+	    };
+	}
 
-/*
-Simply put, the representations for 0.1 and 0.2 in binary floatingpoint are not exact,
-so when they are added, the result is not exactly0.3. It’s really close, 0.30000000000000004,
-but if yourcomparison fails, “close” is irrelevant
-
-
-// "this" keyword sample example
-var person = {
-    name: "Surya",
-    age: "20",
-    company: "IBM",
-    getData: function () {
-        return this.name + ' age is ' + this.age
-    }
-}
-console.log(person.name);
-console.log(person.getData());
+	function foo2() {
+	    return
+	    {
+		bar: "hello"
+	    };
+	}
+	console.log('function 1', foo1());
+	console.log('function 2', foo2());
 
 
-// Hoisting for functions
-console.log(addNum(5));   //---->   Will get output as "addNum is not a function"
+<b>Write the output of below code</b>
+	
+	console.log(0.1 + 0.2);
+	console.log(0.1 + 0.2 === 0.3); Simply put, the representations for 0.1 and 0.2 in binary floatingpoint are not exact,
+	so when they are added, the result is not exactly0.3. It’s really close, 0.30000000000000004,
+	but if yourcomparison fails, “close” is irrelevant
 
-var addNum = function (num1) {
-    return num1 + 5;
-}
+
+<b>Write the output of below code</b>
+
+	var person = {
+	    name: "Surya",
+	    age: "20",
+	    company: "IBM",
+	    getData: function () {
+		return this.name + ' age is ' + this.age
+	    }
+	}
+	console.log(person.name);
+	console.log(person.getData());
 
 
-// Write the output of below code
-var myCar = {
-    color: "blue",
-    logColor: function () {
-        var self = this;
-        console.log("In logColor- this.color " + this.color);
-        console.log("In logColor- self.color " + self.color);
-        (function () {
-            console.log("In IIFE - this.color " + this.color);
-            console.log("In IIFE -self.color " + self.color);
-        })()
-    }
-}
-myCar.logColor();
+<b>Write the output of below code</b>
+	
+	console.log(addNum(5));   //---->   Will get output as "addNum is not a function"
+
+	var addNum = function (num1) {
+	    return num1 + 5;
+	}
+
+
+<b>Write the output of below code</b>
+	
+	var myCar = {
+	    color: "blue",
+	    logColor: function () {
+		var self = this;
+		console.log("In logColor- this.color " + this.color);
+		console.log("In logColor- self.color " + self.color);
+		(function () {
+		    console.log("In IIFE - this.color " + this.color);
+		    console.log("In IIFE -self.color " + self.color);
+		})()
+	    }
+	}
+	myCar.logColor();
 
 
 // Write the output of code
